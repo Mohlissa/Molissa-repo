@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>media</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-labelledby="primary navigation">
+        <ul>
+          <li>
+            <a>
+              <a href="#audio">Audio</a>
+            </a>
+          </li>
+          <li>
+            <a>
+              <a href="#video">Video</a>
+            </a>
+          </li>
+          <li>
+            <a>
+              <a href="#iframe">iframe</a>
+            </a>
+          </li>
+          <li>
+            <a>
+              <a href="#picture">picture</a>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Audio">
+        <h2><em>A song from my fav artist Wizkid</em></h2>
+        <audio controls src="assets/audio/Wizzy Kese Dance.mp3"></audio>
+      </section>
+      <section id="Video">
+        <h2><em>Stepping out to my office on a beautiful morning</em></h2>
+        <video
+          width="560"
+          height="400"
+          controls
+          src="assets/video/Realtor Molissa.MOV"
+        ></video>
+        <p>How i show up for work every monday. #Lifeofarealtor</p>
+      </section>
+      <section id="iframe">
+        <h2><em>A brief introduction on what i do</em></h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/DhXgFLngV-E?si=zvtcU8iCyChy2ct5"
+        ></iframe>
+      </section>
+      <section id="video">
+        <h2><em>A picture of me at work</em></h2>
+        <picture>
+          <source
+            srcset="assets/images/Molissa.jpg.1.JPG"
+            media="(width50px)"
+          />
+          <img
+            width="340"
+            height="400"
+            src="assets/images/Molissa.jpg.1.JPG"
+            alt="A beautiful picture of myself"
+          />
+        </picture>
+      </section>
+    </main>
+  </body>
+</html>
